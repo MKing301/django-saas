@@ -1,4 +1,0 @@
-django
-strip
-psycopg2-binary
-django-cors-headers

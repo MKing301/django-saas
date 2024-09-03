@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!%+(trf54$langaetk&^3v21_21q!#y*4%bsyvh9nq%=oh=4^2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["9a60-2600-1700-7d1-47f0-f569-bd69-b9bf-3ee8.ngrok-free.app", "127.0.0.1"]
 
 
 # Application definition
@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = ["https://9a60-2600-1700-7d1-47f0-f569-bd69-b9bf-3ee8.ngrok-free.app"]
 
 ROOT_URLCONF = 'CoursePlatform.urls'
 
